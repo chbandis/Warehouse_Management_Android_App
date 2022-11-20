@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:title="Home"
+        android:enabled="true"
+        android:icon="@drawable/home_icon"/>
+    <item
+        android:id="@+id/page_2"
+        android:title="QR Scanner"
+        android:enabled="true"
+        android:icon="@drawable/qr_icon"/>
+    <item
+        android:id="@+id/page_3"
+        android:title="Products"
+        android:enabled="true"
+        android:icon="@drawable/products_icon"/>
+
+</menu>
