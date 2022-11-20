@@ -1,2 +1,2 @@
-# Warehouse_Management_App-Android-
+# Warehouse_Management_Android_App
 Computer Science (BSc) Project
