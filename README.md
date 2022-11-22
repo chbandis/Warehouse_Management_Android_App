@@ -1,2 +1,2 @@
 # Warehouse Management Android App
-Computer Science (BSc) Project
+The system developed for the needs of the present project is classified in the type "Autonomous Warehouse Management Systems", as the main feature of this type is its simplicity in terms of the management features it offers. More specifically, the purpose of the application is the management of a food warehouse, which monitors the processes of receiving and sending boxes. Through the application, the user can scan the Quick Response Code (QR Code) located outside the box, thus adding the stock of the product to the local database of the warehouse, but also to the central database (in case this warehouse is a branch of a main one).
