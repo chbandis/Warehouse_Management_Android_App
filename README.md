@@ -15,7 +15,8 @@ Below is the final design of the app on a Storyboard.
 
 1. Xampp or similar app should be installed.
 2. Creation of the database in the phpMyAdmin application with the following SQL queries
-`CREATE DATABASE IF NOT EXISTS `warehouse`;
+```
+CREATE DATABASE IF NOT EXISTS `warehouse`;
 USE `warehouse`;
 
 CREATE TABLE IF NOT EXISTS `products` (
@@ -25,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `products` (
 `Price` decimal(10,1) NOT NULL,
 `PQnt` int(10) NOT NULL,
 PRIMARY KEY (`PID`) );
-`
+```
 3. Copy the CRUDAPI folder to the Xampp htdocs folder and modify the database login details of the php files contained in the folder to connect to the local database.
 4. Lines 28 and 83 of the code of the GlobalDBHandler.java indicate the IP address of the connection (in this case it is 192.168.1.4). In place of the existing one, the IP address of the connection of the PC on which the application is to be run must be placed.
 
